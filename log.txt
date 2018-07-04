@@ -1,0 +1,35 @@
+Loading ...
+----------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Note: To Send Full Output to File Use command
+python -u ./speed-cam.py | tee -a log.txt
+Set log_data_to_file=True to Send speed_Data to CSV File speed-cam.log
+--------------------------------- Settings -------------------------------------
+
+Plugins ......... pluginEnable=False  pluginName=picam480
+Message Display . verbose=True  display_fps=False calibrate=True
+                  show_out_range=True
+Logging ......... Log_data_to_CSV=True  log_filename=speed-cam.csv (CSV format)
+                  loggingToFile=False  logFilePath=speed-cam.log
+                  Log if max_speed_over > 0 kph
+Speed Trigger ... If  track_len_trig > 60 px
+Exclude Events .. If  x_diff_min < 1 or x_diff_max > 30 px
+                  If  y_upper < 75 or y_lower > 185 px
+                  or  x_left < 25 or x_right > 295 px
+                  If  max_speed_over < 0 kph
+                  If  event_timeout > 0.70 seconds Start New Track
+                  track_timeout=0.00 sec wait after Track Ends (avoid retrack of same object)
+Speed Photo ..... Size=960x720 px  image_bigger=3.0  rotation=0  VFlip=True  HFlip=True 
+                  image_path=media/images  image_Prefix=speed-
+                  image_font_size=12 px high  image_text_bottom=True
+Motion Settings . Size=320x240 px  px_to_kph=0.173200  speed_units=kph
+OpenCV Settings . MIN_AREA=200 sq-px  BLUR_SIZE=10  THRESHOLD_SENSITIVITY=20  CIRCLE_SIZE=5 px
+                  WINDOW_BIGGER=1 gui_window_on=True (Display OpenCV Status Windows on GUI Desktop)
+                  CAMERA_FRAMERATE=25 fps video stream speed
+Sub-Directories . imageSubDirMaxHours=0 (0=off)  imageSubDirMaxFiles=1000 (0=off)
+                  imageRecentDir=media/recent imageRecentMax=100 (0=off)
+Disk Space  ..... Disabled - spaceTimerHrs=0  Manage Target Free Disk Space. Delete Oldest jpg Files
+            ..... spaceTimerHrs=0 (0=Off)  Target spaceFreeMB=500 (min=100 MB)
+
+--------------------------------------------------------------------------------
+maimnkl;dkgolasdjkfgjsdklfjsdklgjlsdfkjgkldfjvkdfgk,dfgkdfgjkdfgkdfjgkdfjdgklfjdgkldjfgdfvkhdfgknfjkvjdfkjgdfkgklsdfjglsdfjglksldjfgkldvjksndkfgsdkgnsdfkgnsdkfjgklsdjgklksdfjvilasdjfkjsghdklgjerigergkdhgdfk,dfvnkdfgnjkdfgjkerhgrkegjkdfngjkndfkgjnerkjgnerngkejrfngvjfgndkfjgjrjkghikhgkdfvndxkvndfngekgkdfgjdfgvjkdfgvnkdfngjkrfgkdfgkdfvkldfnnvkdcvfdvbmdfmbvhsdkjgkerghnejkvnfdjkgvjk                                                                                                                                                                          jfklahfkjnfgnsdgnsdfkgnsdfkg
