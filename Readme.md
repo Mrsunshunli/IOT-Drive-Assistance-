@@ -1,6 +1,6 @@
-# SPEED CAMERA - Object Motion Tracker [![Mentioned in Awesome <INSERT LIST NAME>](https://awesome.re/mentioned-badge.svg)](https://github.com/thibmaek/awesome-raspberry-pi)
 ### RPI, Unix Speed Camera Using python, openCV, USB Cam or RPI camera module That Use For Drivers To Assist their Driving
-## For Details See https://drive.google.com/open?id=1_K1laW7n0HnZr_7hTFHpYlVe8Nf93GiT
+## For Details See 
+https://drive.google.com/open?id=1_K1laW7n0HnZr_7hTFHpYlVe8Nf93GiT
 
 ## Program Description   
 This is a raspberry pi, Unix Distro computer openCV object speed carema and Produce Voice Commands to Assist the Drivers for example reduce the speed if  there is chance of collision.
@@ -18,7 +18,7 @@ CSV (Comma Separated Values) format. This can be imported into a spreadsheet, da
 Also included are 
   
 ## Requirements
-**Raspberry Pi computer*** and a ***RPI camera module installed***(https://www.raspberrypi.org/documentation/usage/camera/)
+**Raspberry Pi computer*** and a ***RPI camera module installed***
 or USB Camera plugged in. Make sure hardware is tested and works. Most [RPI models] will work OK. 
 A quad core RPI will greatly improve performance due to threading. A recent version of 
 [Raspbian operating system](https://www.raspberrypi.org/downloads/raspbian/) is Recommended.   
@@ -35,11 +35,11 @@ https://github.com/pageauc/opencv3-setup
 Step2:- 
 Install OBD 
 Command for installing obd 
-pip install obd 
-#step3:-
- connect OBD with Raspberry pi via BlueTooth just need to pair 1st time  
-#step4:-
-  
+ pip install obd 
+Step3:-
+ Connect OBD with Raspberry pi via BlueTooth just need to pair 1st time  
+Step4:-
+ Connect Speaker using Aux cable with Raspberry pi3 
 
 ## Credits  
 The IOT Research Lab
