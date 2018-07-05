@@ -15,7 +15,7 @@ taken and saved in ***media/images*** dated subfolders per variable ***imageSubD
 ***speed-cam.csv*** file will be created/updated with event data stored in
 CSV (Comma Separated Values) format. This can be imported into a spreadsheet, database, Etc program for further processing
 
-Also included are profile.txt which will record the distance between Vechiles and thier speeds 
+Also included are profile.txt which will record the distance between vehicles and thier speeds 
   
 ## Requirements
 **Raspberry Pi computer*** and a ***RPI camera module installed***
@@ -51,4 +51,4 @@ Some of this code is based on a GitHub Repo  https://github.com/pageauc
 Have Fun   
 MCSF16 Legends
 
-For More Information [Mail Me](mshoaib889@gmail.com)
+For More Information contact me  mshoaib889@gmail.com
