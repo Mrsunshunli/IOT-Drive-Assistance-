@@ -29,24 +29,26 @@ The latest python versions include numpy and recent opencv that is required to r
 You will also need a USB web cam installed and working for unix  Distro Computers. 
 ## Working 
 Step1:- 
-Install OpenCV
+Install OpenCV <br />
 to install openCV  
 https://github.com/pageauc/opencv3-setup
-Step2:- 
-Install OBD 
-Command for installing obd 
- pip install obd 
-Step3:-
- Connect OBD with Raspberry pi via BlueTooth just need to pair 1st time  
-Step4:-
+Step2:- <br />
+Install OBD <br />
+Command for installing obd <br />
+ pip install obd <br />
+Step3:-<br />
+ Connect OBD with Raspberry pi via BlueTooth just need to pair 1st time<br />  
+Step4:-<br />
  Connect Speaker using Aux cable with Raspberry pi3 
-
+<br />
 ## Credits  
-The IOT Research Lab
-PUCIT 
+The IOT Research Lab<br />
+PUCIT <br />
 
  
 Some of this code is based on a GitHub Repo  https://github.com/pageauc
   
 Have Fun   
 MCSF16 Legends
+
+For More Information [Mail Me](mshoaib889@gmail.com)
